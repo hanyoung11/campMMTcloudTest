@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="CAMPMMT_Server0511" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/CAMPMMT_Server0511" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-lpthread" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/CAMPMMT_Server0511" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lpthread" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="CAMPCallSetupManager-v1.cpp" />
+		<Unit filename="CAMPCallSetupManager-v1.h" />
+		<Unit filename="CAMPFECEncoder-v1.cpp" />
+		<Unit filename="CAMPFECEncoder-v1.h" />
+		<Unit filename="CAMPMMTPModule-v1.cpp" />
+		<Unit filename="CAMPMMTPModule-v1.h" />
+		<Unit filename="CAMPMPULoader-v1.cpp" />
+		<Unit filename="CAMPMPULoader-v1.h" />
+		<Unit filename="CAMPSender-v1.cpp" />
+		<Unit filename="CAMPSender-v1.h" />
+		<Unit filename="CAMPServerHeader.h" />
+		<Unit filename="CAMPServerQoSManager-v1.cpp" />
+		<Unit filename="CAMPServerQoSManager-v1.h" />
+		<Unit filename="CAMPServerSession-v1.cpp" />
+		<Unit filename="CAMPServerSession-v1.h" />
+		<Unit filename="MySocketUNIX-v2.cpp" />
+		<Unit filename="MySocketUNIX-v2.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
